@@ -95,27 +95,28 @@ function RegisterForm() {
       <select className="form-select" aria-label="Default select example" name="country"
         id="input-country-field">
         <option selected disabled required >COUNTRY *</option>
-        <option value="1" style={{color: 'darkBlue'}}>Latvia</option>
-        <option value="2"style={{color: 'darkBlue'}} >Italy</option>
-        <option value="3" style={{color: 'darkBlue'}}>France</option>
+        <option value="1" style={{ color: 'darkBlue' }}>Latvia</option>
+        <option value="2" style={{ color: 'darkBlue' }} >Italy</option>
+        <option value="3" style={{ color: 'darkBlue' }}>France</option>
       </select>
 
       <div className="form-check">
         <input className="form-check-input" type="checkbox" value="1" name="agree"
-          id="checkbox-terms-conditions" style={{height: '20px'}} required/>
+          id="checkbox-terms-conditions" style={{ height: '20px' }} required />
         <label className="form-check-label" for="checkbox-terms-conditions">
           Agree with terms and conditions*
         </label>
       </div>
+       
 
 
-      {/* <label for="email">email</label>
+        {/* <label for="email">email</label>
       <input type="text" id="email" /> */}
 
 
-      <input type="submit" value="submit" class="submit" style={{borderRadius: '50%', width: '80px', height: '80px'}}/>
+        <input type="submit" value="submit" className="submit align-center" />
     </React.Fragment>
-  );
+      );
 }
 
-export default App;
+      export default App;
