@@ -93,7 +93,7 @@ function RegisterForm() {
       <input type="text" id="lastname" />
 
       <select className="form-select" aria-label="Default select example" name="country"
-        id="input-country-field">
+        id="input-country-field" style={{fontSize: '16px'}}>
         <option selected disabled required >COUNTRY *</option>
         <option value="1" style={{ color: 'darkBlue' }}>Latvia</option>
         <option value="2" style={{ color: 'darkBlue' }} >Italy</option>
