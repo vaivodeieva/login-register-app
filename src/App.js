@@ -102,7 +102,7 @@ function RegisterForm() {
 
       <div className="form-check">
         <input className="form-check-input" type="checkbox" value="1" name="agree"
-          id="checkbox-terms-conditions" style={{height: '20px'}}/>
+          id="checkbox-terms-conditions" style={{height: '20px'}} required/>
         <label className="form-check-label" for="checkbox-terms-conditions">
           Agree with terms and conditions*
         </label>
@@ -113,7 +113,7 @@ function RegisterForm() {
       <input type="text" id="email" /> */}
 
 
-      <input type="submit" value="submit" class="submit" />
+      <input type="submit" value="submit" class="submit" style={{borderRadius: '50%', width: '80px', height: '80px'}}/>
     </React.Fragment>
   );
 }
