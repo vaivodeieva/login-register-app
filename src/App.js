@@ -77,16 +77,16 @@ function LoginForm() {
 function RegisterForm() {
   return (
     <React.Fragment>
-      <label for="username">username</label>
+      <label for="username">username *</label>
       <input type="text" id="username" required />
 
-      <label for="password">password</label>
+      <label for="password">password *</label>
       <input type="text" id="password" required />
 
-      <label for="confirmpassword">confirm password</label>
+      <label for="confirmpassword">confirm password *</label>
       <input type="text" id="confirmpassword" required />
 
-      <label for="firstname">first name</label>
+      <label for="firstname">first name *</label>
       <input type="text" id="firstname" required />
 
       <label for="lastname">last name</label>
@@ -94,17 +94,17 @@ function RegisterForm() {
 
       <select className="form-select" aria-label="Default select example" name="country"
         id="input-country-field">
-        <option selected disabled required >Country*</option>
+        <option selected disabled required >COUNTRY *</option>
         <option value="1" style={{color: 'darkBlue'}}>Latvia</option>
-        <option value="2"style={{color: 'darkBlue'}} >Belgium</option>
+        <option value="2"style={{color: 'darkBlue'}} >Italy</option>
         <option value="3" style={{color: 'darkBlue'}}>France</option>
       </select>
 
       <div className="form-check">
         <input className="form-check-input" type="checkbox" value="1" name="agree"
-          id="checkbox-terms-conditions" />
+          id="checkbox-terms-conditions" style={{height: '20px'}}/>
         <label className="form-check-label" for="checkbox-terms-conditions">
-          Agree with terms and conditions
+          Agree with terms and conditions*
         </label>
       </div>
 
