@@ -122,10 +122,19 @@ button.active {
 
 
 
+  /* .form-check-input {
+    display: contents!important;
+  } */
+
+
+  /* .form-check-input {
+    display: inline-block!important;
+  } */
+
+
   .form-check-input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-    word-wrap: break-word;
+    white-space: nowrap;
+    display: inline-flex; 
   }
+
+ 

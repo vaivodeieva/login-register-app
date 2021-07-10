@@ -102,9 +102,9 @@ function RegisterForm() {
 
       <div className="form-check">
         <input className="form-check-input" type="checkbox" value="1" name="agree"
-          id="checkbox-terms-conditions" style={{ height: '20px' }} required />
-        <label className="form-check-label" for="checkbox-terms-conditions">
-          Agree with terms and conditions*
+          id="checkbox-terms-conditions" style={{ height: '20px', display: 'inline', whiteSpace: 'nowrap', textAlign: 'left'}} required />
+        <label className="form-check-label" for="checkbox-terms-conditions" style={{whiteSpace: 'nowrap', textAlign: 'left'}}>
+          Agree with terms and conditions *
         </label>
       </div>
        
