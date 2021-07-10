@@ -84,7 +84,7 @@ function RegisterForm() {
       <input type="text" id="password" required />
 
       <label for="confirmpassword">confirm password</label>
-      <input type="text" id="confirmpassword" required/>
+      <input type="text" id="confirmpassword" required />
 
       <label for="firstname">first name</label>
       <input type="text" id="firstname" required />
@@ -95,27 +95,27 @@ function RegisterForm() {
       <select className="form-select" aria-label="Default select example" name="country"
         id="input-country-field">
         <option selected disabled required >Country*</option>
-        <option value="1">Latvia</option>
-        <option value="2">Belgium</option>
-        <option value="3">France</option>
+        <option value="1" style={{color: 'darkBlue'}}>Latvia</option>
+        <option value="2"style={{color: 'darkBlue'}} >Belgium</option>
+        <option value="3" style={{color: 'darkBlue'}}>France</option>
       </select>
 
       <div className="form-check">
         <input className="form-check-input" type="checkbox" value="1" name="agree"
-          id="checkbox-terms-conditions"/>
-          <label className="form-check-label" for="checkbox-terms-conditions">
-            Agree with terms and conditions
-          </label>
-                                    </div>
+          id="checkbox-terms-conditions" />
+        <label className="form-check-label" for="checkbox-terms-conditions">
+          Agree with terms and conditions
+        </label>
+      </div>
 
 
-        {/* <label for="email">email</label>
+      {/* <label for="email">email</label>
       <input type="text" id="email" /> */}
 
 
-        <input type="submit" value="submit" class="submit" />
+      <input type="submit" value="submit" class="submit" />
     </React.Fragment>
-      );
+  );
 }
 
-      export default App;
+export default App;
