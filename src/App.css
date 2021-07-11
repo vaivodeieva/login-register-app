@@ -10,7 +10,8 @@ html,body, body * {
 }
 
 body {
-  background-image: url(pic.jpg);
+  /* background-image: url(pic.jpg); */
+  background-color: darkgreen;
   background-size:  cover;
   background-position:center center;
   
@@ -23,7 +24,7 @@ body {
 
 
 .login-register-wrapper {
-    height: 700px;
+    height: 750px;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -132,9 +133,9 @@ button.active {
   } */
 
 
-  .form-check-input {
+  /* .form-check-input {
     white-space: nowrap;
     display: inline-flex; 
-  }
+  } */
 
  
